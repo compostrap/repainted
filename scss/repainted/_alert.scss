@@ -1,0 +1,11 @@
+//
+// alert bootstrap customize
+//
+
+.alert-light {
+  color: darken($color-light, 45);;
+}
+
+.alert-warning {
+  color: darken($color-warning, 45);
+}

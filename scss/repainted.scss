@@ -5,13 +5,6 @@
  * MIT License
 */
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,700);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,700);
-
-$font-family-base: Open Sans;
-$headings-font-family: Open Sans;
-
-//repainted
 $color-primary: #1795f8;
 $color-secondary: #929292;
 $color-success: #4bc25c;
@@ -29,8 +22,7 @@ $theme-colors: (
         'danger': $color-danger,
         'warning': $color-warning,
         'info': $color-info,
-        'light': $color-light,
-        'dark': $color-dark
+        'dark': $color-dark,
 );
 
 // re-settings
@@ -48,13 +40,7 @@ $btn-padding-y: 0.26rem;
 $theme-color-interval: 10%;
 $headings-color: #4e4e4e;
 
-  // bootstrap complete (comment if you only want some components)
+// bootstrap
 @import '../node_modules/bootstrap/scss/bootstrap';
-
-.alert-light {
-  color: darken($color-light, 45);;
-}
-
-.alert-warning {
-  color: darken($color-warning, 45);
-}
+@import 'repainted/alert';
+@import 'repainted/buttons';

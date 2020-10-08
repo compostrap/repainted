@@ -1,0 +1,26 @@
+//
+// buttons bootstrap customize
+//
+
+.btn-warning,
+.btn-warning:hover {
+  color: darken($color-warning, 45);
+}
+
+.btn-outline-warning {
+  color: darken($color-warning, 25);
+}
+
+.btn-outline-warning:hover {
+  color: darken($color-warning, 45);
+}
+
+.btn-outline-light {
+  color: darken($color-light, 25);
+}
+
+.btn-light,
+.btn-light:hover,
+.btn-outline-light:hover {
+  color: darken($color-light, 50);
+}
